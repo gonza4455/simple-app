@@ -10,5 +10,5 @@ app.get('/:nombre', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`🚀 Servidor escuchando en http://localhost:${PORT}`);
+  console.log(`🚀 Servidor escuchando en http://localhost:${port}`);
 });
