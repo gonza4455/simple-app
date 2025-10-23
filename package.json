@@ -1,0 +1,24 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonza4455/simple-app.git"
+  },
+  "author": "Gonzalo Jauregui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonza4455/simple-app/issues"
+  },
+  "homepage": "https://github.com/gonza4455/simple-app#readme",
+  "description": ""
+}
