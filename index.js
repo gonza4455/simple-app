@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -9,6 +9,6 @@ app.get('/:nombre', (req, res) => {
     res.send(`Hola ${req.params.nombre}, bienvenido a mi API`);
 })
 
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log(`🚀 Servidor escuchando en http://localhost:${PORT}`);
 });
